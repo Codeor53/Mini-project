@@ -1,0 +1,146 @@
+body{
+    background-color: #12100E;
+}
+.head{
+    border: #FBFFB9 2px solid;
+    width: 100%;
+    height: 100px;
+    background-color:#12100E;
+    color: #E8E288;
+    font-size: 25px;
+    font-family:cursive;
+    border-bottom: 0px;
+}
+.head h1{
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+}
+.menu{
+    border: #FBFFB9 2px solid;
+    width: 100%;
+    height: 30px;
+    background-color: #FBFFB9;
+}
+.menu ul{
+    display: inline;
+}
+.menu li{
+    display: inline;
+    padding-left: 80px;
+    padding-right: 80px
+}
+.menu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #12100E;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+
+.menu a:hover{
+    color:red;
+    text-decoration: red underline;
+}
+.container{
+    width:100%;
+    height:300px;
+    background-image: url("contac.webp");
+    background-size:cover;
+    background-position: 70%;
+}
+.container h1{
+    font-family:'Times New Roman', Times, serif;
+    padding: 8px;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    left: 25px;
+    top: 60px;
+}
+.container p{
+    color:white;
+    position: relative;
+    left: 200px;
+    width: 300px;
+    bottom: 20px;
+    font-size:xx-large;
+    font-style:italic;
+}
+.contain{
+    width: 100%;
+    position: relative;
+    color: aliceblue;
+    height:auto;
+    background-color: #12100E;
+}
+.footer{
+    border: #FBFFB9 2px solid;
+    width: 100%;
+    height:100px;
+    background-color: #12100E;
+    color: #E8E288;
+    font-size: 25px;
+    font-family:cursive;
+}
+.footer h1{
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+}
+.footer h1 a{
+    text-decoration: none;
+    color: #E8E288;
+    float: left;
+}
+.footer h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    position: relative;
+    right: 10px;
+}
+button{
+    position: relative;
+    left: 80px;
+    border-radius: 5px;
+    transition: .5s;
+}
+button:hover{
+    color: yellow;
+    background-color: black;
+}
+input:hover{
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255,0.50);
+    
+}
+textarea:hover{
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255,0.50);
+
+}
+select:hover{
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255,0.50);
+
+}
+textarea{
+    position: relative;
+    top: 13px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    transition: .3s;
+}
+select{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    transition: .3s;
+}
+input{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    transition: .3s;
+}
+
+
+
+
+
